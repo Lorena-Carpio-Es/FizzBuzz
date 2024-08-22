@@ -1,6 +1,6 @@
 function generarFizzBuzz(numero) {
-    if (numero===3){
-        return "Fizz"
+    if (numero % 3 === 0) {
+        return "Fizz";
     }
     return numero+""
   }

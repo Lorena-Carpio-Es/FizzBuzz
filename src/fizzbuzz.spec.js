@@ -13,4 +13,12 @@ describe("FizzBuzz", () => {
         expect(generarFizzBuzz(3)).toEqual("Fizz");
     });
 
+    it("Generar Fizz para cualquier múltiplo de 3", () => {
+        expect(generarFizzBuzz(6)).toEqual("Fizz");
+        expect(generarFizzBuzz(9)).toEqual("Fizz");
+        expect(generarFizzBuzz(12)).toEqual("Fizz");
+    });
+
+    
+
 });
