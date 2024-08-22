@@ -19,6 +19,12 @@ describe("FizzBuzz", () => {
         expect(generarFizzBuzz(12)).toEqual("Fizz");
     });
 
+    it("Generar Fizz para cualquier múltiplo de 15", () => {
+        expect(generarFizzBuzz(30)).toEqual("Fizz");
+        expect(generarFizzBuzz(45)).toEqual("Fizz");
+        expect(generarFizzBuzz(60)).toEqual("Fizz");
+    });
+
     
 
 });
